@@ -17,6 +17,47 @@ Each market includes:
 - **Currency:** The single currency for the market (e.g., USD equivalent or FLR). Multiple markets for the same question can exist in different currencies.
 - **Time Frame:** The period during which the event and resolution will occur.
 
+## Funding the Market
+
+Market funding is how you help get a prediction market off the ground. Think of it like being the house at a casino—you’re providing the chips people use to bet.
+
+When you fund a market, you deposit money into the platform’s **automated market maker (AMM)**. The AMM uses this liquidity to offer buy and sell prices on each possible outcome. Without funding, the market sits idle—untradeable.
+
+Once funded, traders can jump in, place bets, and trade outcome tokens based on what they think will happen. Since you helped create that action, you earn a share of the fees generated whenever people trade.
+
+### Why Fund a Market?
+
+Every market needs liquidity to be tradeable. **IgniteMarket** typically seeds markets with some initial funding—but anyone can add more at any time. Here’s why you might want to:
+
+#### Earn a Cut of Trading Fees
+Every trade in the market generates a small fee. As a funder, you earn a share of those fees. More trading = more earnings.
+
+#### Profit from Market Moves
+Early funders often get in at neutral prices (like 50/50 odds). As bets roll in and prices shift, you can:
+- Sell your position for a profit
+- Stay exposed if you think the market’s mispriced
+
+#### Exit Anytime
+Change your mind? No problem. You can pull your funds (and any profits) out **before** the market resolves. You’re never locked in.
+
+#### Back the Markets You Believe In
+If you spot a market you’re confident will attract action—or one where you have an edge—you can fund it and potentially benefit from your insights.
+
+### What Are the Risks?
+
+#### Exposure to the Outcome
+As a funder, you’re part of the AMM. If most of the crowd bets one way and they’re right, you could end up paying out. Your profit depends on balanced trading and the final result.
+
+#### Low Volume = Low Rewards
+No trades? No fees. If a market gets little attention, your earnings might be minimal (or even zero), while your funds were tied up.
+
+#### Price Exposure Swings
+Markets can move fast. If sentiment shifts heavily while you’re funded, you might end up stuck with more exposure to the losing side unless you exit in time.
+
+#### Smart Traders Could Snipe You
+Remember, you’re providing the liquidity. If sharp traders spot mispriced odds, they can trade against you, potentially taking profits at your expense.
+
+
 ## User-Generated Questions
 
 While users can’t directly launch markets, they can propose ideas for consideration. The markets team evaluates proposals based on:
