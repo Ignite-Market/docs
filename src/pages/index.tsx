@@ -10,19 +10,33 @@ import styles from "./index.module.css";
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
+  const Logo = require("@site/static/img/ignitemarket-logo.svg").default;
+
   return (
-    <header className={clsx("hero hero--primary", styles.heroBanner)}>
+    <header className={clsx("hero", styles.heroBanner)}>
       <div className="container">
         <Heading as="h1" className="hero__title">
-          {siteConfig.title}
+          <span className="hidden">{siteConfig.title}</span>
+          <Logo style={{ maxWidth: "100%", width: "400px", height: "auto" }} />
         </Heading>
+
         <p className="hero__subtitle">{siteConfig.tagline}</p>
+
+        <br />
+
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
             to="/docs/introduction/overview"
           >
-            Docusaurus Tutorial - 5min ⏱️
+            Get Started
+          </Link>
+
+          <Link
+            className="button button--secondary button--outline button--lg"
+            href="https://ignitemarket.xyz/"
+          >
+            Open App
           </Link>
         </div>
       </div>
@@ -34,11 +48,18 @@ export default function Home(): ReactNode {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
+      title={`Documentation | ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />"
     >
       <HomepageHeader />
-      <main>
+      <main
+        style={{
+          backgroundColor: "#111827",
+          backgroundImage:
+            "linear-gradient(to right, rgba(140, 82, 255, 0.1) 1px, transparent 1px), linear-gradient(rgba(140, 82, 255, 0.1) 1px, transparent 1px)",
+          backgroundSize: "40px 40px",
+        }}
+      >
         <HomepageFeatures />
       </main>
     </Layout>

@@ -5,9 +5,9 @@ import type * as Preset from "@docusaurus/preset-classic";
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: "IgniteMarket",
-  tagline: "Dinosaurs are cool",
-  favicon: "img/favicon.ico",
+  title: "Ignite Market",
+  tagline: "Decentralized Prediction Markets",
+  favicon: "img/IgniteMarket.png",
 
   // Set the production url of your site here
   url: "https://docs.ignitemarket.xyz",
@@ -65,13 +65,12 @@ const config: Config = {
   ],
 
   themeConfig: {
-    // Replace with your project's social card
-    image: "img/docusaurus-social-card.jpg",
+    image: "img/og.jpg",
     navbar: {
-      title: "IgniteMarket",
+      title: "Ignite Market",
       logo: {
-        alt: "IgniteMarket Logo",
-        src: "img/logo.svg",
+        alt: "Ignite Market",
+        src: "img/ignitemarket-logo-icon.svg",
       },
       items: [
         {
@@ -80,7 +79,7 @@ const config: Config = {
           position: "left",
           label: "Tutorial",
         },
-        { to: "/blog", label: "Blog", position: "left" },
+        // { to: "/blog", label: "Blog", position: "left" },
         {
           href: "https://github.com/kalmiallc/ignite-market-docs",
           label: "GitHub",
@@ -100,26 +99,26 @@ const config: Config = {
             },
           ],
         },
-        {
-          title: "Community",
-          items: [
-            // {
-            //   label: 'Discord',
-            //   href: 'https://discordapp.com/invite/docusaurus',
-            // },
-            // {
-            //   label: 'X',
-            //   href: 'https://x.com/docusaurus',
-            // },
-          ],
-        },
+        // {
+        //   title: "Community",
+        //   items: [
+        //     // {
+        //     //   label: 'Discord',
+        //     //   href: 'https://discordapp.com/invite/docusaurus',
+        //     // },
+        //     // {
+        //     //   label: 'X',
+        //     //   href: 'https://x.com/docusaurus',
+        //     // },
+        //   ],
+        // },
         {
           title: "More",
           items: [
-            {
-              label: "Blog",
-              to: "/blog",
-            },
+            // {
+            //   label: "Blog",
+            //   to: "/blog",
+            // },
             {
               label: "GitHub",
               href: "https://github.com/kalmiallc",
@@ -127,11 +126,16 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} IgniteMarket, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} IgniteMarket, Inc.`,
     },
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
+    },
+    colorMode: {
+      defaultMode: "dark",
+      disableSwitch: true,
+      respectPrefersColorScheme: false,
     },
   } satisfies Preset.ThemeConfig,
 };
