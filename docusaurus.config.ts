@@ -67,10 +67,10 @@ const config: Config = {
   themeConfig: {
     image: "img/og.jpg",
     navbar: {
-      title: "Ignite Market",
+      // title: "Ignite Market",
       logo: {
         alt: "Ignite Market",
-        src: "img/ignitemarket-logo-icon.svg",
+        src: "img/ignitemarket-logo.svg",
       },
       items: [
         {
@@ -90,15 +90,15 @@ const config: Config = {
     footer: {
       style: "dark",
       links: [
-        {
-          title: "Docs",
-          items: [
-            {
-              label: "Tutorial",
-              to: "/docs/introduction/overview",
-            },
-          ],
-        },
+        // {
+        //   title: "Docs",
+        //   items: [
+        //     {
+        //       label: "Tutorial",
+        //       to: "/docs/introduction/overview",
+        //     },
+        //   ],
+        // },
         // {
         //   title: "Community",
         //   items: [
@@ -112,19 +112,19 @@ const config: Config = {
         //     // },
         //   ],
         // },
-        {
-          title: "More",
-          items: [
-            // {
-            //   label: "Blog",
-            //   to: "/blog",
-            // },
-            {
-              label: "GitHub",
-              href: "https://github.com/kalmiallc",
-            },
-          ],
-        },
+        // {
+        //   title: "More",
+        //   items: [
+        //     // {
+        //     //   label: "Blog",
+        //     //   to: "/blog",
+        //     // },
+        //     {
+        //       label: "GitHub",
+        //       href: "https://github.com/kalmiallc",
+        //     },
+        //   ],
+        // },
       ],
       copyright: `Copyright © ${new Date().getFullYear()} IgniteMarket, Inc.`,
     },
