@@ -37,9 +37,6 @@ Early funders often get in at neutral prices (like 50/50 odds). As bets roll in 
 - Sell your position for a profit
 - Stay exposed if you think the market’s mispriced
 
-#### Exit Anytime
-Change your mind? No problem. You can pull your funds (and any profits) out **before** the market resolves. You’re never locked in.
-
 #### Back the Markets You Believe In
 If you spot a market you’re confident will attract action—or one where you have an edge—you can fund it and potentially benefit from your insights.
 
