@@ -1,6 +1,6 @@
 ---
 sidebar_position: 2
-title: Make first trade
+title: Make a first trade
 ---
 
 # How to: Make a first trade

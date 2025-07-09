@@ -65,7 +65,7 @@ While users can’t directly launch markets, they can propose ideas for consider
 
 ### Submit a Market Proposal
 
-Visit our [Discord](https://discord.com/) to suggest a market. Create a proposal post, join discussions, and vote on ideas. Include:
+Visit our platform to suggest a market. Create a proposal post, join discussions, and vote on ideas. Include:
 - Market title
 - Detailed rules
 - Proposed resolution source and type

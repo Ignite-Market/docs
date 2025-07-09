@@ -35,6 +35,6 @@ Participating in IgniteMarket involves speculative trading and blockchain-based 
 ### Mitigation
 - **Research:** Understand each market’s rules, resolution type, and risks before trading.
 - **Diversify:** Avoid over-investing in a single market or outcome.
-- **Stay Informed:** Monitor updates on Discord or the platform for changes to resolution processes or token mechanics.
+- **Stay Informed:** Monitor updates on our platform for changes to resolution processes or token mechanics.
 
 Ignite Market aims to provide a fair and transparent experience, but no platform can eliminate all risks. Trade responsibly!

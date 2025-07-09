@@ -40,6 +40,6 @@ TBD
 Ignite Tokens will be airdropped to participants based on a points system tied to:
 - Market participation (bets placed)
 - Referral program (users referred)
-- Community engagement (market suggestions, Discord voting)
+- Community engagement (market suggestions, resolution voting)
 
 Details to be announced at a later stage.
