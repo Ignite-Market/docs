@@ -3,6 +3,8 @@ sidebar_position: 2
 title: DAO
 ---
 
+**The Dao token is not launched yet!**
+
 The Ignite Token is central to governance and resolution for social and disputed automatic markets.
 
 ## Core Mechanism
@@ -11,9 +13,6 @@ The Ignite Token is central to governance and resolution for social and disputed
 - Votes are weighted by token stake and a reputation score (earned from past correct resolutions).
 - A supermajority (66%+) determines the outcome.
 
-## Market fees
-
-Market fees are set at 1% for every transaction (buy and sell). This can be adjusted via a DAO vote.
 
 ## Incentives
 
@@ -25,15 +24,13 @@ Market fees are set at 1% for every transaction (buy and sell). This can be adju
 To prevent dishonest voting:
 
 1. **Quadratic Voting:** Votes scale quadratically (e.g., 1 token = 1 vote, 4 tokens = 2 votes), reducing whale influence.
+
 2. **Reputation System:**
    - Weights votes alongside tokens.
    - Sets minimum reputation thresholds for high-value markets.
    - Enhances Sybil resistance.
    - May involve a jury of high-reputation holders.
 
-## Reputation system mechanics
-
-TBD
 
 ## Airdrop
 
