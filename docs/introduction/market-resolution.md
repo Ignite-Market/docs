@@ -16,7 +16,7 @@ FDC provides trustless, automatic resolution for markets with clear data sources
 - **Open Participation:** Anyone can contribute resolution data, enhancing decentralization.
 - **Failure Case:** If resolution fails, users can sell shares back to the liquidity pool until it’s empty.
 
-## AI Resolution - Experimental
+## AI Resolution - Comming
 
 For markets lacking deterministic sources, multiple AI models seek consensus.
 Models analyze public data and vote based on predefined criteria.
