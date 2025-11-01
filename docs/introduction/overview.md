@@ -3,7 +3,7 @@ sidebar_position: 1
 ---
 # Overview
 
-Ignite Market is a decentralized prediction market platform built on the Flare blockchain, enabling users to trade on the outcomes of real-world events—ranging from sports and politics to cultural milestones. By harnessing collective forecasting, Ignite Market allows participants to buy and sell shares in event outcomes and profit from their insights.
+IgniteMarket is a decentralized prediction market platform built on the Flare blockchain, enabling users to trade on the outcomes of real-world events—ranging from sports and politics to cultural milestones. By harnessing collective forecasting, IgniteMarket allows participants to buy and sell shares in event outcomes and profit from their insights.
 
 What sets Ignite Market apart is its integration with Flare’s cutting-edge blockchain technology. Leveraging the Gnosis Fixed Product Market Maker (FPMM) and conditional tokens, Ignite Market ensures a robust and transparent trading mechanism. The platform uses the Flare Data Connector (FDC) for trustless event resolution and Flare Oracles for reliable, decentralized token price data. For events without a clear resolution source, Ignite Market employs social resolution via a voting mechanism.
 
@@ -37,4 +37,4 @@ Participating in IgniteMarket involves speculative trading and blockchain-based 
 - **Diversify:** Avoid over-investing in a single market or outcome.
 - **Stay Informed:** Monitor updates on our platform for changes to resolution processes or token mechanics.
 
-Ignite Market aims to provide a fair and transparent experience, but no platform can eliminate all risks. Trade responsibly!
+IgniteMarket aims to provide a fair and transparent experience, but no platform can eliminate all risks. Trade responsibly!
