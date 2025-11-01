@@ -5,7 +5,7 @@ title: Market creation
 
 # How Are Markets Created?
 
-Markets on Ignite Market are crafted by our dedicated markets team. While users and the community can’t directly create markets, their input is invaluable—analyzed, verified, and implemented by the team.
+Markets on IgniteMarket are crafted by our dedicated markets team. While users and the community can’t directly create markets, their input is invaluable—analyzed, verified, and implemented by the team.
 
 ## Market Information
 

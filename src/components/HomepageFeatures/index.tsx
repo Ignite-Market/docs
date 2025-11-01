@@ -23,12 +23,11 @@ const FeatureList: FeatureItem[] = [
     color: "#bc49bc",
   },
   {
-    title: "AI-Enhanced Resolution",
+    title: "AI-Enhanced Resolution - Soon",
     Svg: require("@site/static/img/features/robot.svg").default,
     description: (
       <>
-        Our AI system integrated with Flare TEE validates outcomes using
-        multiple models for unparalleled accuracy.
+        Our AI system based outcomes will use multiple models for unparalleled accuracy.
       </>
     ),
     color: "#4668e0",
