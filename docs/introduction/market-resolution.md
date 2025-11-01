@@ -26,5 +26,4 @@ Models analyze public data and vote based on predefined criteria.
 
 ## Social Resolution
 
-- **Version 0.1:** Uses whitelisted addresses to vote on outcomes.
-- **Version 1.0:** Transitions to a full DAO system (see DAO section for details).
+- **Community:** Uses whitelisted addresses to vote on outcomes. Trusted community members can earn the privilege to become voters.

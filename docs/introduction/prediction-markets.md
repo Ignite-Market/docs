@@ -28,5 +28,5 @@ Ignite Market employs the Gnosis FPMM model, enabling share prices to adjust dyn
 
 ## Video explanations
 
-- [Prediction markets: can betting be good for the world?](https://www.youtube.com/watch?v=xA27x7GRMZQ&ab_channel=RationalAnimations)
-- [Why Betting Markets Beat The Experts](https://www.youtube.com/watch?v=ngX1nIvnMOM&ab_channel=ArtoftheProblem)
+- [Prediction markets: can they be good for the world?](https://www.youtube.com/watch?v=xA27x7GRMZQ&ab_channel=RationalAnimations)
+- [Why Markets Beat The Experts](https://www.youtube.com/watch?v=ngX1nIvnMOM&ab_channel=ArtoftheProblem)
