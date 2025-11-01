@@ -23,7 +23,7 @@ const FeatureList: FeatureItem[] = [
     color: "#bc49bc",
   },
   {
-    title: "AI-Enhanced Resolution - Soon",
+    title: "AI-Enhanced Resolution — Coming Soon",
     Svg: require("@site/static/img/features/robot.svg").default,
     description: (
       <>
@@ -37,8 +37,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require("@site/static/img/features/bars.svg").default,
     description: (
       <>
-        Spelcial prediction markets market maker used for efficient price
-        discovery and reduced slippage across market shares.
+        Specialized prediction-market market maker used for efficient price discovery and reduced slippage across market shares.
       </>
     ),
     color: "#bc49bc",
