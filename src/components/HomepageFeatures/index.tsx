@@ -23,17 +23,6 @@ const FeatureList: FeatureItem[] = [
     color: "#bc49bc",
   },
   {
-    title: "DAO Token",
-    Svg: require("@site/static/img/features/tokens.svg").default,
-    description: (
-      <>
-        Governance token enabling resolition rights, fee discounts, staking
-        rewards, and market creation privileges.
-      </>
-    ),
-    color: "#ff5a7e",
-  },
-  {
     title: "AI-Enhanced Resolution",
     Svg: require("@site/static/img/features/robot.svg").default,
     description: (
@@ -43,17 +32,6 @@ const FeatureList: FeatureItem[] = [
       </>
     ),
     color: "#4668e0",
-  },
-  {
-    title: "DAO Governance",
-    Svg: require("@site/static/img/features/users.svg").default,
-    description: (
-      <>
-        Decentralized governance enabling token holders to vote on protocol
-        upgrades, fee structures, and market validation.
-      </>
-    ),
-    color: "#33a382",
   },
   {
     title: "Advanced automated market maker (AMM)",
