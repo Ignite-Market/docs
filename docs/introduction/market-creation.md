@@ -14,7 +14,7 @@ Each market includes:
 - **Options:** Resolution options, with a minimum of two mutually exclusive outcomes.
 - **Rules:** Detailed conditions of the question, including resolution criteria and edge cases.
 - **Resolution Type:** The method used to determine the outcome (e.g., FDC, social voting).
-- **Currency:** The single currency for the market (e.g., USD equivalent or FLR). Multiple markets for the same question can exist in different currencies.
+- **Currency:** The single currency for the market (e.g., USDT0 equivalent or FLR). Multiple markets for the same question can exist in different currencies.
 - **Time Frame:** The period during which the event and resolution will occur.
 
 ## Funding the Market
