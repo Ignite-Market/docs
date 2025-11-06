@@ -23,7 +23,7 @@ Market funding is how you help get a prediction market off the ground. Think of 
 
 When you fund a market, you deposit money into the platform’s **automated market maker (AMM)**. The AMM uses this liquidity to offer buy and sell prices on each possible outcome. Without funding, the market sits idle—untradeable.
 
-Once funded, traders can jump in, place bets, and trade outcome tokens based on what they think will happen. Since you helped create that action, you earn a share of the fees generated whenever people trade.
+Once funded, traders can jump in, place bets, and trade outcome tokens based on what they think will happen. Since you helped create that action, you **earn a share of the fees** generated whenever people trade.
 
 ### Why Fund a Market?
 

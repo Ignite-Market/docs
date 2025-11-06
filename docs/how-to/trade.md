@@ -5,7 +5,7 @@ title: Make a first trade
 
 # How to: Make a first trade
 
-Ignite Market uses a prediction-market AMM where you buy and sell outcome shares priced between **0** and **1** collateral token (e.g. USDC, XRP). Buying shares is similar to placing a bet: the more likely an outcome, the higher the price.
+Ignite Market uses a prediction-market AMM where you buy and sell outcome shares priced between **0** and **1** collateral token (e.g. USD0T, FXRP). Buying shares is similar to placing a bet: the more likely an outcome, the higher the price.
 
 ## Before you start
 

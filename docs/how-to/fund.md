@@ -10,7 +10,7 @@ Providing liquidity to a market earns you a share of the **trading fees** it gen
 ## Before you start
 
 - Make sure your wallet is **connected** to Ignite Market on the **Flare** network.
-- Your wallet must hold the market's **collateral token** (e.g. **USDC**, **XRP**).
+- Your wallet must hold the market's **collateral token** (e.g. **USDC**, **FXRP**).
 - Keep a small amount of **FLR** to cover the gas fees.
 - If this is your **first** time interacting with the collateral token, your wallet will prompt you to **increase allowance** so the protocol can spend the token on your behalf. This is a one-time approval.
 
