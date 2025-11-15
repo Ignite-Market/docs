@@ -37,6 +37,17 @@ A new market starts in *Funding* mode. As soon as total liquidity meets the crea
 Liquidity providers can withdraw their share (plus earned fees) **after the market resolves**.
 :::
 
+## Market Funding Risk Warning
+
+By funding market, you are acting as a **liquidity provider** and are taking on part of the market's risk. Your potential loss is directly related to the market's initial uncertainty and the final outcome.
+
+### Understanding Your Risk Exposure
+
+| Scenario | Risk Explanation | Potential Outcome |
+| :--- | :--- | :--- |
+| **High Uncertainty (50/50 Start)** | If the market begins with a 50/50 probability (maximum uncertainty), you are covering a significant portion of the initial risk. | When the market resolves, **50% of your provided funding can be lost**. |
+| **Low Uncertainty (Near Final Outcome)** | If you fund the market when it is close to the final outcome (i.e., the price is already resolved or clearly directional). | All the funding (collateral) can be **retrieved back** (plus any accrued fees) once the market resolves. |
+
 <div style={{ position: 'relative', boxSizing: 'content-box', maxHeight: '80vh', width: '100%', aspectRatio: '1.8216318785578747', padding: '40px 0' }}>
   <iframe src="https://app.supademo.com/embed/cmcujdiph24kz9st8766q1yuq?embed_v=2" loading="lazy" title="Ignite Market ‑ Fund a Market" allow="clipboard-write" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}>
   </iframe>
