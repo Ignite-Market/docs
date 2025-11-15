@@ -32,11 +32,6 @@ Every market needs liquidity to be tradeable. **IgniteMarket** typically seeds m
 #### Earn a Cut of Trading Fees
 Every trade in the market generates a small fee. As a funder, you earn a share of those fees. More trading = more earnings.
 
-#### Profit from Market Moves
-Early funders often get in at neutral prices (like 50/50 odds). As bets roll in and prices shift, you can:
-- Sell your position for a profit
-- Stay exposed if you think the market’s mispriced
-
 #### Back the Markets You Believe In
 If you spot a market you’re confident will attract action—or one where you have an edge—you can fund it and potentially benefit from your insights.
 
@@ -49,10 +44,13 @@ As a funder, you’re part of the AMM. If most of the crowd bets one way and the
 No trades? No fees. If a market gets little attention, your earnings might be minimal (or even zero), while your funds were tied up.
 
 #### Price Exposure Swings
-Markets can move fast. If sentiment shifts heavily while you’re funded, you might end up stuck with more exposure to the losing side unless you exit in time.
+Markets can move fast. If sentiment shifts heavily while you’re funded, you might end up stuck with more exposure to the losing side.
 
 #### Smart Traders Could Snipe You
 Remember, you’re providing the liquidity. If sharp traders spot mispriced odds, they can trade against you, potentially taking profits at your expense.
+
+#### ⚠️ Market Funding Risk Warning ⚠️
+By funding market, you are acting as a **liquidity provider** and are taking on part of the market's risk. Your potential loss is directly related to the market's initial uncertainty and the final outcome.
 
 
 ## User-Generated Questions
