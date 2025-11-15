@@ -54,4 +54,78 @@ By funding market, you are acting as a **liquidity provider** and are taking on 
 </div>
 
 
+## Funding example
 
+### Setup and Initial Deposit
+
+| Detail | Value |
+| :--- | :--- |
+| **Market** | "Will Team X win the final?" |
+| **Outcomes** | YES / NO |
+| **Collateral** | USD0T |
+| **Initial Deposit** | **100 USD0T** |
+| **Starting Odds** | 50% YES / 50% NO |
+| **Initial Position** | Balanced (Roughly holding equal value of YES and NO tokens) |
+| **LP Share** | "You own 100% of this pool" |
+| **Trading Fee** | 2% per trade |
+
+---
+
+### Phase 1 – Earning Trading Fees
+
+Traders interact with the pool by buying and selling YES and NO tokens, and each trade incurs a **2% fee** which is deposited into the liquidity pool (LP).
+
+* **Total Trading Volume:** 500 USD0T
+* **Total Fees Collected:** $500 \times 0.02 = \mathbf{10 \text{ USD0T}}$
+
+---
+
+### Phase 2 – Pool Position Skew (Impermanent Loss Risk)
+
+As traders bet (in this case, buying YES), the AMM automatically adjusts the pool's composition to maintain the balance of the market. This shift exposes the Liquidity Provider (LP) to the less popular side of the bet.
+
+| Metric | Before Trading | After Trading (Example) | Implication for LP |
+| :--- | :--- | :--- | :--- |
+| **YES Price** | 50% | **70%** (Up) | Traders are heavily exposed to YES |
+| **NO Price** | 50% | **30%** (Down) | Traders are heavily exposed to NO |
+| **LP Pool Position** | Balanced | **More exposed to NO** | The LP is effectively shorting the popular outcome (YES). |
+
+**Note:** The LP, by acting as "the pool," is effectively taking on the opposite side of the bet from the aggregated traders. This exposure is the source of potential profit or loss at resolution, known as **Impermanent Loss** risk.
+
+---
+
+### Phase 3 – Resolution and Final Outcome
+
+The final profit or loss for the LP is determined by two factors:
+1.  The total **Trading Fees** collected (10 USD0T).
+2.  The value change of the pool's asset composition (YES/NO tokens) based on the **Final Outcome**.
+
+#### Scenario A: ✅ The Market Was Right (YES Wins)
+
+In this scenario, the market's final odds were **70% YES / 30% NO**, and **YES wins** (the popular outcome).
+
+* **Pool Exposure:** Heavily holding the losing side (NO).
+* **Payout:** The pool must pay out to YES token holders.
+* **Final Amount:** **120 USD0T**
+* **LP Profit:** $120 - 100 = \mathbf{+20 \text{ USD0T}}$
+
+**Analysis:**
+
+* The LP's loss from holding the losing tokens (NO) was relatively small because the market's price was generally accurate (70% YES).
+* The loss was more than offset by the **10 USD0T in collected fees** plus the benefit of the pool's composition being reasonably valued before resolution.
+* **Outcome:** Risk taken + Fees earned + Low skew against reality = **Profit**.
+
+#### Scenario B: ❌ The Market Was Very Wrong (YES Wins, but NO was favored)
+
+Imagine the final odds were skewed to **80% NO / 20% YES**, and **YES wins** (a major surprise).
+
+* **Pool Exposure:** Extremely exposed to the losing side (NO). The pool was effectively **short YES**.
+* **Payout:** The pool must pay out to all YES token holders (payout is 1 USD0T per token).
+* **Final Amount:** **60 USD0T**
+* **LP Loss:** $60 - 100 = \mathbf{-40 \text{ USD0T}}$
+
+**Analysis:**
+
+* The pool was heavily skewed towards **NO** (80% favored), meaning the LP was holding a large amount of tokens that went to **zero** when YES won.
+* The major loss from the pool's bad positioning ($-50 \text{ USD0T}$) was significantly larger than the **10 USD0T in collected fees**.
+* **Outcome:** High risk taken + Fees earned - High skew against reality = **Significant Loss**.
