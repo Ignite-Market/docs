@@ -69,16 +69,14 @@ By funding market, you are acting as a **liquidity provider** and are taking on 
 | **LP Share** | "You own 100% of this pool" |
 | **Trading Fee** | 2% per trade |
 
----
 
 ### Phase 1 – Earning Trading Fees
 
 Traders interact with the pool by buying and selling YES and NO tokens, and each trade incurs a **2% fee** which is deposited into the liquidity pool (LP).
+50% of the fees is provided to LP funders.
 
 * **Total Trading Volume:** 500 USD0T
-* **Total Fees Collected:** $500 \times 0.02 = \mathbf{10 \text{ USD0T}}$
-
----
+* **Total Fees Collected:** $500 x 0.02/2 = 5 USDT0
 
 ### Phase 2 – Pool Position Skew (Impermanent Loss Risk)
 
@@ -92,40 +90,41 @@ As traders bet (in this case, buying YES), the AMM automatically adjusts the poo
 
 **Note:** The LP, by acting as "the pool," is effectively taking on the opposite side of the bet from the aggregated traders. This exposure is the source of potential profit or loss at resolution, known as **Impermanent Loss** risk.
 
----
-
 ### Phase 3 – Resolution and Final Outcome
 
 The final profit or loss for the LP is determined by two factors:
-1.  The total **Trading Fees** collected (10 USD0T).
+1.  The total **Trading Fees** collected (5 USD0T).
 2.  The value change of the pool's asset composition (YES/NO tokens) based on the **Final Outcome**.
 
-#### Scenario A: ✅ The Market Was Right (YES Wins)
 
+## Example scenarions
+
+
+### Scenario A: ✅ The Market Was Right (YES Wins)
 In this scenario, the market's final odds were **70% YES / 30% NO**, and **YES wins** (the popular outcome).
 
-* **Pool Exposure:** Heavily holding the losing side (NO).
+* **Pool Exposure:** Holding the losing side (NO).
 * **Payout:** The pool must pay out to YES token holders.
-* **Final Amount:** **120 USD0T**
-* **LP Profit:** $120 - 100 = \mathbf{+20 \text{ USD0T}}$
+* **Final Amount (with fees):** **120 USD0T**
+* **LP Profit:** $120 - $50 = $70
 
 **Analysis:**
 
 * The LP's loss from holding the losing tokens (NO) was relatively small because the market's price was generally accurate (70% YES).
-* The loss was more than offset by the **10 USD0T in collected fees** plus the benefit of the pool's composition being reasonably valued before resolution.
+* Profit came from the high colected fees, and yes position **20 USD0T in collected fees** plus the benefit of the pool's composition being reasonably valued before resolution.
 * **Outcome:** Risk taken + Fees earned + Low skew against reality = **Profit**.
 
-#### Scenario B: ❌ The Market Was Very Wrong (YES Wins, but NO was favored)
+### Scenario B: ❌ The Market Was Very Wrong (YES Wins, but NO was favored)
 
 Imagine the final odds were skewed to **80% NO / 20% YES**, and **YES wins** (a major surprise).
 
 * **Pool Exposure:** Extremely exposed to the losing side (NO). The pool was effectively **short YES**.
 * **Payout:** The pool must pay out to all YES token holders (payout is 1 USD0T per token).
-* **Final Amount:** **60 USD0T**
-* **LP Loss:** $60 - 100 = \mathbf{-40 \text{ USD0T}}$
+* **Final Amount (with fees):** **60 USD0T**
+* **LP Loss:** $60 - $80 = -$20
 
 **Analysis:**
 
 * The pool was heavily skewed towards **NO** (80% favored), meaning the LP was holding a large amount of tokens that went to **zero** when YES won.
-* The major loss from the pool's bad positioning ($-50 \text{ USD0T}$) was significantly larger than the **10 USD0T in collected fees**.
+* The major loss from the pool's bad positioning (80 USD0T) was significantly larger than the **10 USD0T in collected fees**.
 * **Outcome:** High risk taken + Fees earned - High skew against reality = **Significant Loss**.
